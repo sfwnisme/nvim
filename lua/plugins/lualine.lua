@@ -2,8 +2,10 @@ return {
   "nvim-lualine/lualine.nvim",
   config = function()
     require("lualine").setup({
+      theme = {},
       options = {
-        theme = "catppuccin-mocha",
+        icons_enabled = false,
+        -- theme = "base16", --catppuccin-mocha 
         sections = {
           lualine_a = {
             file = 1,
@@ -11,5 +13,6 @@ return {
         },
       },
     })
+    -- require("lualine").hide()
   end
 }
