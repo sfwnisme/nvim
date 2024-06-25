@@ -1,4 +1,7 @@
 return {
+  -- plugin: nvim-treesitter
+  -- function: code highlight
+  -- src: https://github.com/nvim-treesitter/nvim-treesitter
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",

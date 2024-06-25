@@ -1,5 +1,4 @@
-console.log('testing')
-const obj: {name: stiring} = {
-  name: 'sfwn';
-  age: 23
+const obj: { name: string, age: number } = {
+  name: 'sfwn',
+  age: 23,
 }

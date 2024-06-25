@@ -3,11 +3,10 @@ return {
   -- function: theme
   -- src: https://github.com/catppuccin/nvim
   "catppuccin/nvim", 
+  lazy = false,
   name = "catppuccin", 
   priority = 1000 ,
-  -- background = false,
   config = function () 
-    -- config theme
     vim.cmd.colorscheme "catppuccin"
   end
 }
