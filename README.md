@@ -10,7 +10,7 @@
 
 ## Requirements
 - [neovim](https://neovim.io/)
-- C compiler (gcc, clang, etc) for wsl or windows
+- C compiler (gcc, clang, etc) for wsl or windows to use LSP
 - [nodejs](https://nodejs.org/en/) for coc.nvim
 - lua language
 - typescript and typescript-language-server for if you use them
