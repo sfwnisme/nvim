@@ -15,4 +15,8 @@
 - lua language
 - typescript and typescript-language-server for if you use them
 - luarocks for lua packages, you can download it in wsl
-- 
+
+
+
+
+
