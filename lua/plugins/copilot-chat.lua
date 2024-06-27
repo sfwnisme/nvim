@@ -20,8 +20,8 @@ return {
     end
 		-- config = function()
 		-- 	local config = reuqire("CopilotChat").setup({
-		-- 		debug = true,
-		-- 	})
+    -- 		debug = true,
+    -- 	})
 		-- end,
 		-- See Commands section for default commands if you want to lazy load on them
 	},
